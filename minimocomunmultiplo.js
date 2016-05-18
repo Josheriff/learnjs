@@ -34,7 +34,8 @@ function smallestCommons(arr) {
      }
   
   
-  
+  //comentado
+  console.log('ha funcionado el push');
   return primenumbers;
 }
 
