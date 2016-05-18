@@ -1,4 +1,4 @@
 git add nombredelfichero
-git commit -m nombredelfichero "comentario opcional"
+git commit . -m "actualiza todos los archivos"
 
 git push
