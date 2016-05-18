@@ -1,4 +1,4 @@
 git add nombredelfichero
-git commit -m "comentario"
+git commit -m nombredelfichero "comentario opcional"
 
 git push
