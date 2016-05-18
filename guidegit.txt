@@ -1,0 +1,4 @@
+git add nombredelfichero
+git commit -m "comentario"
+
+git push
