@@ -1,5 +1,19 @@
 
 function binaryAgent(str) {
+  // i have to loop between every 8 digits existing in the array, so arr[0]= the 8 numbers.
+  str=str.toString();
+  var binaryblock=[];
+  var numberofloops=8;
+  var i=0;
+  for (i;i<numberofloops;i+8){
+      binaryblock[i-8]=str[i-8]+str[i-7]+str[i-6]+str[i-5]+str[i-4]+str[i-3]+str[i-2]+str[i-1]+str[i];
+      if(str[numberofloops+2]){
+          i+=8;
+          numberofloops+=8
+      }
+      console.log(binaryblock);
+  }
+  console.log(str[1]);
   return str;
 }
 
